@@ -28,7 +28,6 @@ if (shikiConfig?.customThemesPath) {
 }else{
   themes = Array.from(new Set([light,dark]))
 }
-console.log('debug');
 
 
 shiki.createHighlighter({
